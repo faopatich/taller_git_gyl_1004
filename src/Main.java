@@ -7,12 +7,10 @@ public class Main {
         Float Num1 = teclado.nextFloat();
         System.out.print("Ingrese un numero: ");
         Float Num2 = teclado.nextFloat();
+        System.out.println("Elija la operación: ");
 
-        System.out.println(Sumar(Num1, Num2));
+        System.out.println(Suma.Sumar(Num1, Num2));
 
     }
 
-    public static float Sumar(float Num1, float Num2){
-        return Num1 + Num2;
-    }
 }
